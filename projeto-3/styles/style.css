@@ -1,0 +1,391 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    background-color: #ccc;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+/* Menu */
+
+.navbar-conteiner {
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-itens {
+    position: absolute;
+    right: 0px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-itens a:hover{
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #3cc763;
+    border-radius: 5px;
+}
+
+.navbar-itens .default-btn:hover {
+    color: #000;
+    background-color: #22bb63;
+}
+
+.main-banner {
+    background-image: url(../img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1, p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+/*Services Conteiner */
+
+.services-conteiner{
+    padding: 5rem 0;
+}
+
+.services-conteiner ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-conteiner li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+    color: #2cc76a;
+}
+
+.fa-rocket {
+    color: #ef3f39;
+}
+
+.fa-comments {
+    color: #ef8f29;
+}
+
+.services-conteiner h3 {
+    margin-bottom: 25px;
+}
+
+.services-conteiner p {
+    line-height: 24px;
+}
+
+/* Seção de Preços */
+
+.pricing-conteiner {
+    padding: 5rem;
+    text-align: center;
+}
+
+.pricing-conteiner h2 {
+    font-size: 36px;
+}
+
+.pricing-conteiner p {
+    font-size: 20px;
+}
+
+.plans-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    background-color: #2cc76a;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding: 50px 0;
+}
+
+.plan .plan-btn {
+    font-size: 24px;
+    color: #fff;
+    background-color: #2cc76a;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommendad {
+    background-color: #f45c57;
+}
+
+/* Aréa de domínio */
+
+.searchdomain-conteiner {
+    background-color: #34455e;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.searchdomain-conteiner h2 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.searchdomain-conteiner p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-conteiner input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-conteiner input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-conteiner input[type="submit"] {
+    background-color: #2cc762;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.searchdomain-conteiner input[type="submit"]:hover {
+    opacity: 1;
+}
+
+/* formulario de contato */
+
+.contact-conteiner {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-conteiner h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact-conteiner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-conteiner input,
+.contact-conteiner textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1 solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-conteiner textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-conteiner input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Responsividade*/
+
+/* small laptops a partir de 1100px */
+
+@media (max-width: 1100px) {
+
+    .plans-conteiner{
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+
+}
+
+/*  tablet 900px */
+
+ @media (max-width: 900px) {
+    
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-conteiner {
+        padding: 2rem 4rem; 
+    }
+ }
+
+ /* Celular 576px */
+
+ @media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-itens li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .services-conteiner ul {
+        flex-direction: column;
+    }
+
+    .plans-conteiner {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem ;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-conteiner h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-conteiner input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-conteiner {
+        padding: 3rem 2rem;
+    }
+
+    .contact-conteiner input,
+    .contact-conteiner textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+ }
