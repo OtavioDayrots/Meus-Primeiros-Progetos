@@ -7,7 +7,7 @@ const qrCodeImg = document.querySelector("#qr-code img")
 
 // Eventos
 function generateQrCode() {
-    const qrCodeInputValue = qrCodeInput.Value;
+    const qrCodeInputValue = qrCodeInput.value;
 
     if (!qrCodeInputValue) return;
 
